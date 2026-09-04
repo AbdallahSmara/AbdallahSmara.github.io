@@ -1,19 +1,15 @@
 # Abdallah Smara — Portfolio
 
-A responsive dark/gold personal portfolio prepared for GitHub Pages.
+Responsive dark/gold personal portfolio prepared for GitHub Pages.
 
 ## Files
 - `index.html` — main website
 - `style.css` — responsive design
 - `script.js` — navigation behavior
-- `abdallah-smara-photo.jfif` — supplied portrait
-- `Abdallah-Smara-CV.pdf` — supplied LinkedIn/CV PDF
-- `contact-qr.png` — contact QR (temporary; replace with final portfolio URL QR if desired)
+- `assets/abdallah-smara-photo.png` — professional portrait
+- `assets/Abdallah-Smara-CV.pdf` — CV
+- `assets/contact-qr.png` — QR code to the live portfolio
 
 ## GitHub Pages
-1. Create a public GitHub repository.
-2. Upload all files/folders from this package.
-3. Open **Settings → Pages**.
-4. Select **Deploy from a branch**, choose `main` and `/ (root)`.
-5. Save and wait for the Pages URL.
-6. Replace the contact QR with a QR pointing to the final website URL if you want the card QR to open the portfolio.
+Upload **all files and the `assets` folder exactly as provided** to the repository root.
+Then use **Settings → Pages → Deploy from a branch → main → / (root)**.
