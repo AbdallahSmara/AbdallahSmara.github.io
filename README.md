@@ -6,9 +6,9 @@ A responsive dark/gold personal portfolio prepared for GitHub Pages.
 - `index.html` — main website
 - `style.css` — responsive design
 - `script.js` — navigation behavior
-- `assets/abdallah-smara-photo.jfif` — supplied portrait
-- `assets/Abdallah-Smara-CV.pdf` — supplied LinkedIn/CV PDF
-- `assets/contact-qr.png` — contact QR (temporary; replace with final portfolio URL QR if desired)
+- `abdallah-smara-photo.jfif` — supplied portrait
+- `Abdallah-Smara-CV.pdf` — supplied LinkedIn/CV PDF
+- `contact-qr.png` — contact QR (temporary; replace with final portfolio URL QR if desired)
 
 ## GitHub Pages
 1. Create a public GitHub repository.
