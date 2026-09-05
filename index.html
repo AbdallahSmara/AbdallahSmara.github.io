@@ -3,131 +3,84 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Abdallah Smara — Accounting Consultant | Finance Operations, P2P, Supplier Accounting, Manufacturing Finance, Cost Control and Financial Analysis.">
-<meta name="theme-color" content="#080808">
 <title>Abdallah Smara | Accounting Consultant</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#000;display:flex;justify-content:center}
+.page{position:relative;width:min(100vw,849px);aspect-ratio:849/1852;background:url('assets/master.png') center/100% 100% no-repeat}
+a{position:absolute;z-index:2;display:block}
+.nav{top:.7%;height:2%}
+.home{left:54%;width:5%}.about{left:60%;width:5%}.exp{left:66%;width:7%}.skills{left:73%;width:6%}.cert{left:80%;width:9%}.contact{left:89%;width:7%}
+.explore{left:77%;top:51.8%;width:20%;height:3%}
+.wa{left:65%;top:88%;width:31%;height:3%}.email{left:65%;top:91%;width:31%;height:3%}.li{left:65%;top:94%;width:31%;height:3%}
+.footli{left:41%;bottom:1%;width:18%;height:2%}.back{right:1%;bottom:1%;width:8%;height:3%}
+.anchor{position:absolute;left:0;width:1px;height:1px;z-index:1}
+.modal{display:none;position:fixed;inset:0;z-index:20;background:rgba(0,0,0,.82);align-items:center;justify-content:center;padding:24px}.modal.show{display:flex}.modal-card{width:min(900px,94vw);max-height:88vh;overflow:auto;background:#07100f;border:1px solid #dca928;box-shadow:0 0 35px rgba(220,169,40,.22);padding:28px;color:#f4f1e8;font-family:Arial,sans-serif}.modal-card h2{margin:0 0 6px;color:#f2b72b;font-size:24px}.modal-card h3{margin:22px 0 8px;color:#f2b72b;font-size:17px}.modal-card p,.modal-card li{font-size:14px;line-height:1.55}.modal-card ul{margin:6px 0 0 20px;padding:0}.modal-close{float:right;background:transparent;border:1px solid #dca928;color:#f2b72b;padding:6px 11px;cursor:pointer;font-size:16px}
+#about{top:25%}#experience{top:51%}#experience-details{top:55%}#skills{top:78%}#certifications{top:87%}#contact{top:87%}
+</style>
 </head>
 <body>
-<header class="site-header">
-  <a class="brand" href="#home" aria-label="Abdallah Smara home">
-    <span class="monogram">AS</span>
-    <span><b>Abdallah Smara</b><small>ACCOUNTING CONSULTANT</small></span>
-  </a>
-  <nav class="nav" id="nav">
-    <a class="active" href="#home">Home</a><a href="#about">About</a><a href="#experience">Experience</a>
-    <a href="#expertise">Skills</a><a href="#credentials">Certifications</a><a href="#contact">Contact</a>
-  </nav>
-  <a class="btn btn-outline btn-small" href="assets/Abdallah-Smara-CV.pdf" target="_blank" rel="noopener">Download CV <span>↓</span></a>
-  <button class="menu" id="menu" aria-label="Open menu">☰</button>
-</header>
-
-<main>
-<section class="hero" id="home">
-  <div class="hero-photo">
-    <img src="assets/abdallah-smara-photo.png" alt="Abdallah Smara">
-    <div class="hero-tag">Turning<br>Numbers<br>into<br>Opportunities</div>
-  </div>
-  <div class="hero-copy">
-    <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
-    <h1>Abdallah <span>Smara</span></h1>
-    <h2>ACCOUNTING CONSULTANT</h2>
-    <div class="gold-line"></div>
-    <p class="specialties">Finance Operations <i>|</i> Accounts Payable <i>|</i> P2P <i>|</i> Supplier Accounting<br>
-    Manufacturing Finance <i>|</i> Cost Control <i>|</i> Financial Analysis</p>
-    <p class="lead">I help businesses strengthen financial control, optimize costs, and build efficient processes through practical experience and a deep understanding of finance and operations.</p>
-    <div class="actions"><a class="btn btn-gold" href="#contact">Get In Touch →</a><a class="btn btn-outline" href="#experience">View My Work →</a></div>
-  </div>
-  <aside class="hero-stats">
-    <div><strong>▣ &nbsp;10+</strong><span>Years of Experience</span></div>
-    <div><strong>♧ &nbsp;250+</strong><span>Active Suppliers</span></div>
-    <div><strong>▤ &nbsp;600 – 750</strong><span>Invoices / Month</span></div>
-    <div><strong>♧ &nbsp;3</strong><span>Team Members</span></div>
-    <blockquote>“Better Processes<br>Stronger Businesses”</blockquote>
-  </aside>
-</section>
-
-<section class="section about" id="about">
-  <div>
-    <p class="eyebrow">ABOUT ME</p>
-    <h2 class="section-title">More Than Just Accounting</h2>
-    <p>Finance professional with 10+ years of experience across Accounts Payable, P2P, Finance Operations, Cost Control, and manufacturing environments.</p>
-    <p>My experience goes beyond traditional Accounts Payable, covering supplier accounting, end-to-end P2P operations, payment planning, vendor reconciliation, manufacturing finance, WIP, outsourced operations, and cost analysis.</p>
-    <p>I work closely with Procurement, Planning, Warehouse, Production, and Finance teams, supporting performance evaluation, KPI reporting, operational analysis, and process improvement.</p>
-    <a class="btn btn-outline btn-small" href="#experience">Read More →</a>
-  </div>
-  <div class="about-points">
-    <div><span>⚙</span><b>Process<br>Improvement</b></div>
-    <div><span>▥</span><b>Financial<br>Control</b></div>
-    <div><span>◉</span><b>Cost<br>Optimization</b></div>
-    <div><span>♧</span><b>Cross-Functional<br>Collaboration</b></div>
-    <div><span>◎</span><b>Better<br>Business Decisions</b></div>
-  </div>
-  <blockquote class="main-quote">“A well-controlled payables process is not just about payments; it’s about trust, relationships and business continuity.”
-  <cite>— Abdallah Smara</cite></blockquote>
-</section>
-
-<section class="section impact">
-  <p class="eyebrow">KEY IMPACT</p><h2 class="section-title">Numbers That Make a Difference</h2>
-  <div class="metrics">
-    <div><strong>♧<br>250+</strong><span>Active Suppliers</span></div>
-    <div><strong>▤<br>600 – 750</strong><span>Invoices Processed Monthly</span></div>
-    <div><strong>♧<br>3</strong><span>AP Accountants Supervised</span></div>
-    <div><strong>↗<br>40+</strong><span>Payments Weekly <small>(excluding checks)</small></span></div>
-  </div>
-</section>
-
-<section class="section" id="experience">
-  <p class="eyebrow">PROFESSIONAL EXPERIENCE</p><h2 class="section-title">A Journey of Continuous Growth</h2>
-  <div class="timeline">
-    <article><span>2013 – 2015</span><b>Administration<br>Supervisor</b><small>Safir for Hotels Kitchen Equipment</small></article>
-    <article><span>2015 – 2016</span><b>Accounts<br>Receivable</b><small>Electronic House EH</small></article>
-    <article><span>2016 – 2018</span><b>Inventory<br>Accounting</b><small>Electronic House EH</small></article>
-    <article><span>2018 – 2020</span><b>Accounts Payable<br>Accountant</b><small class="logo-text">EH</small><small>Electronic House EH</small></article>
-    <article><span>2020 – 2022</span><b>Senior Accounts<br>Payable</b><small class="logo-text">E-SICO</small><small>Egyptian Silicon Industries Corporation</small></article>
-    <article class="current"><span>2022 – Present</span><b>Senior Payable<br>Accountant</b><small>MEN'S CLUB<br>(Manufacturing)</small></article>
-  </div>
-  <div class="center"><a class="btn btn-outline" href="#experience-details">View Full Experience →</a></div>
-  <div class="experience-grid" id="experience-details">
-    <div><span class="eyebrow">CURRENT ROLE</span><h3>MEN'S CLUB</h3><p>Accounts Payable · Supplier Accounting · P2P · Manufacturing Finance · WIP · Cost Analysis</p></div>
-    <div><span class="eyebrow">CORE RESPONSIBILITY</span><h3>End-to-End Finance Operations</h3><p>Supplier reconciliations, payment planning, SOPs, internal controls, month-end/year-end closing, VAT/WHT and audit support.</p></div>
-  </div>
-</section>
-
-<section class="section" id="expertise">
-  <p class="eyebrow">CORE EXPERTISE</p><h2 class="section-title">Skills That Drive Results</h2>
-  <div class="skills">
-    <div>♙<br>Financial<br>Operations</div><div>▤<br>Accounts<br>Payable (AP)</div><div>♧<br>Procure-to-Pay<br>(P2P)</div>
-    <div>▣<br>Supplier<br>Accounting</div><div>♜<br>Manufacturing<br>Finance</div><div>▤<br>Cost<br>Control</div>
-    <div>♙<br>WIP</div><div>↗<br>Financial<br>Analysis</div><div>▥<br>KPI<br>Reporting</div><div>♧<br>Team<br>Leadership</div>
-  </div>
-</section>
-
-<section class="section credentials" id="credentials">
-  <div>
-    <p class="eyebrow">CERTIFICATIONS</p><h2 class="section-title">Professional Development</h2>
-    <ul><li>Corporate Finance Fundamentals</li><li>Reading Financial Statements</li><li>Accounting Fundamentals</li><li>Data Analysis using Microsoft Excel</li><li>Fundamentals of Credit</li><li>FMVA (In Progress)</li></ul>
-  </div>
-  <div>
-    <p class="eyebrow">EDUCATION</p><h2 class="section-title">Academic Background</h2>
-    <h3>♧ &nbsp; B.Com – Accounting</h3><p>Cairo University</p>
-    <div class="quote-mini">“Learning never stops, because the financial world is always evolving.”<br>— Abdallah Smara</div>
-  </div>
-  <div class="contact-card" id="contact">
-    <p class="eyebrow">LET'S CONNECT</p><h2 class="section-title">Get In Touch</h2>
-    <p>☎ &nbsp;<a href="tel:+201276311361">012 7631 1361</a></p>
-    <p>✉ &nbsp;<a href="mailto:abdallahsmara.consulting@gmail.com">abdallahsmara.consulting@gmail.com</a></p>
-    <p>in &nbsp;<a href="https://www.linkedin.com/in/abdallahsmara" target="_blank" rel="noopener">linkedin.com/in/abdallahsmara</a></p>
-    <p>⌖ &nbsp; Cairo, Egypt</p>
-    <img class="qr" src="assets/contact-qr.png" alt="Portfolio QR code">
-  </div>
-</section>
+<main class="page" id="top">
+<a class="nav home" href="#top" aria-label="Home"></a>
+<a class="nav about" href="#about" aria-label="About"></a>
+<a class="nav exp" href="#experience" aria-label="Experience"></a>
+<a class="nav skills" href="#skills" aria-label="Skills"></a>
+<a class="nav cert" href="#certifications" aria-label="Certifications"></a>
+<a class="nav contact" href="#contact" aria-label="Contact"></a>
+<span class="anchor" id="about"></span><span class="anchor" id="experience"></span><span class="anchor" id="experience-details"></span><span class="anchor" id="skills"></span><span class="anchor" id="certifications"></span><span class="anchor" id="contact"></span>
+<a class="explore" href="#experience-details" aria-label="Explore My Experience" id="exploreBtn"></a>
+<a class="wa" href="https://wa.me/201276311361" target="_blank" rel="noopener" aria-label="WhatsApp"></a>
+<a class="email" href="mailto:abdallasmara@gmail.com" aria-label="Email"></a>
+<a class="li" href="https://www.linkedin.com/in/abdallahsmara/" target="_blank" rel="noopener" aria-label="LinkedIn"></a>
+<a class="footli" href="https://www.linkedin.com/in/abdallahsmara/" target="_blank" rel="noopener" aria-label="LinkedIn"></a>
+<a class="back" href="#top" aria-label="Back to Top"></a>
 </main>
-
-<footer><div class="brand"><span class="monogram">AS</span><span><b>Abdallah Smara</b><small>ACCOUNTING CONSULTANT</small></span></div><span>Finance Today&nbsp; | &nbsp;A Stronger Tomorrow</span><nav><a href="#home">Home</a><a href="#about">About</a><a href="#experience">Experience</a><a href="#expertise">Skills</a><a href="#credentials">Certifications</a><a href="#contact">Contact</a></nav></footer>
-<script src="script.js"></script>
+<div class="modal" id="experienceModal" aria-hidden="true">
+  <section class="modal-card" role="dialog" aria-modal="true" aria-labelledby="experienceModalTitle">
+    <button class="modal-close" id="closeExperience" aria-label="Close">×</button>
+    <h2 id="experienceModalTitle">Professional Experience</h2>
+    <p>Selected responsibilities and business impact across my accounting and finance career.</p>
+    <h3>2022 – Present | MEN’S CLUB — Senior Accounts Payable & Cost Control</h3>
+    <ul>
+      <li>Managed AP supporting EGP 65M+ monthly local procurement and EGP 350M annual imported procurement.</li>
+      <li>Managed 250+ active suppliers and approximately 600–750 supplier invoices monthly.</li>
+      <li>Maintained supplier continuity during a three-month liquidity challenge.</li>
+      <li>Designed KPIs across Procurement, Planning, and Warehouse; developed AP SOPs and strengthened internal controls.</li>
+      <li>Led, coached, and trained 15+ professionals; supported weekly payment planning and cash management.</li>
+      <li>Supported VAT/WHT compliance, month-end closing, audit readiness, and cross-functional finance operations.</li>
+    </ul>
+    <h3>2020 – 2022 | E-SICO — Senior Accounts Payable</h3>
+    <ul>
+      <li>Processed supplier invoices using three-way matching and maintained vendor account accuracy through regular reconciliations.</li>
+      <li>Performed landed-cost calculations including freight, duties, and additional charges.</li>
+      <li>Monitored open purchase orders and GRN completion.</li>
+      <li>Maintained VAT/WHT compliance and audit-ready documentation and supported smooth month-end closing.</li>
+    </ul>
+    <h3>2016 – 2020 | ELECTRONIC HOUSE — AP / Inventory / AR</h3>
+    <ul>
+      <li>Reduced slow-moving inventory by 60% through alternative sales methods for packaging defects.</li>
+      <li>Improved inventory turnover and minimized holding costs.</li>
+      <li>Supported inventory valuation, costing analysis, and stock reconciliation.</li>
+      <li>Maintained accurate supplier invoice and payment processing and improved vendor balance reliability through reconciliations and follow-up.</li>
+    </ul>
+    <h3>2013 – 2015 | SAFIR — Administration Supervisor</h3>
+    <ul>
+      <li>Improved customer invoicing, collections follow-up, and balance accuracy.</li>
+      <li>Enhanced administrative efficiency through structured supervision and task allocation.</li>
+      <li>Ensured accurate invoice processing, payroll review, and expense validation.</li>
+      <li>Coordinated purchasing/receiving control through three-way matching and maintained organized documentation for month-end closing and audit readiness.</li>
+    </ul>
+  </section>
+</div>
+<script>
+const exploreBtn=document.getElementById('exploreBtn');
+const modal=document.getElementById('experienceModal');
+const closeBtn=document.getElementById('closeExperience');
+exploreBtn.addEventListener('click',e=>{e.preventDefault();modal.classList.add('show');modal.setAttribute('aria-hidden','false');});
+closeBtn.addEventListener('click',()=>{modal.classList.remove('show');modal.setAttribute('aria-hidden','true');});
+modal.addEventListener('click',e=>{if(e.target===modal){modal.classList.remove('show');modal.setAttribute('aria-hidden','true');}});
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeBtn.click();});
+</script>
 </body>
 </html>
